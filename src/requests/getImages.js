@@ -11,6 +11,7 @@ const getImages = (query) => {
         const parsedImages = imageResults.filter(
           (media) => media.data[0].media_type === "image"
         );
+
         const images = parsedImages.map((image) => image.links[0].href);
         return images;
       })

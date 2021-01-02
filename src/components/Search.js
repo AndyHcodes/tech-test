@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../styles/Search.css";
 import getImages from "../requests/getImages";
 
@@ -17,7 +17,7 @@ const Search = ({ setSearchResults }) => {
           onChange={(e) => setValue(e.target.value)}
           type="text"
           className="search-input"
-          placeholder="Enter your search here"
+          placeholder="Space related picture search"
         />
         <button className="search-button" type="submit">
           Search

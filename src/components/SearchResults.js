@@ -4,7 +4,7 @@ import "../styles/SearchResults.css";
 
 const SearchResults = ({ results }) => {
   if (!results.length) {
-    return <p>No results</p>;
+    return <p className="nrText">No results</p>;
   } else {
     return (
       <div className="imageContainer">

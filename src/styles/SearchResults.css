@@ -7,6 +7,7 @@ p {
   padding: 20px;
   flex-direction: column;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .nasaImage {
@@ -17,4 +18,18 @@ p {
   margin-top: 15px;
   width: 305px;
   height: auto;
+}
+
+@media (max-width: 415px) {
+  .nasaImage {
+    text-align: center;
+    width: 268px;
+  }
+}
+
+@media (max-width: 325px) {
+  .nasaImage {
+    text-align: center;
+    width: 215px;
+  }
 }
